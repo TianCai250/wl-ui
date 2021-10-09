@@ -1,19 +1,10 @@
-# demo
+# 构建组件库打包
++ npm run lib
 
-## Project setup
-```
-npm install
-```
+# 安装组件库
++ npm install wl-ui
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 全局导入使用
++ import WlUI from 'wl-ui'
++ import 'wl-ui/lib/wl.css'
++ Vue.use(WlUI)
