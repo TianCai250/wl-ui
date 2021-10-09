@@ -1,10 +1,10 @@
 # 安装组件库
-+ npm install wl-ui
++ npm install wluo-ui
 
 # 全局导入使用
-+ import WlUI from 'wl-ui'
++ import WluoUI from 'wluo-ui'
 + import 'wl-ui/lib/wl.css'
-+ Vue.use(WlUI)
++ Vue.use(WluoUI)
 
 # 组件
 ## 按钮
